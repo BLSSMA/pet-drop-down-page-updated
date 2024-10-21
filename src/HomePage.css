@@ -1,0 +1,84 @@
+    body {
+      background: radial-gradient(
+        328px at 2.9% 15%,
+        rgb(191, 224, 251) 0%,
+        rgb(232, 233, 251) 25.8%,
+        rgb(252, 239, 250) 50.8%,
+        rgb(234, 251, 251) 77.6%,
+        rgb(240, 251, 244) 100.7%
+      );
+    }
+    h1 {
+      margin: 0 auto;
+      text-align: center;
+      line-height: 60px;
+      padding: 10px;
+      background: linear-gradient(
+        179.4deg,
+        rgb(253, 240, 233) 2.2%,
+        rgb(255, 194, 203) 96.2%
+      );
+      max-width: 500px;
+      border-radius: 10px;
+    }
+    h2 {
+      text-align: center;
+      border: 1px solid purple;
+      padding: 20px;
+      max-width: 500px;
+      margin: 10px auto;
+      border-radius: 10px;
+    }
+
+    img {
+      max-width: 400px;
+      display: block;
+      margin: 0 auto;
+      border: 10px double #f3e4f1;
+      border-radius: 10px;
+    }
+    a {
+      font-size: 11px;
+      text-decoration: none;
+    }
+    .storytext {
+      max-width: 500px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 50px;
+      background: white;
+      border-radius: 10%;
+      font-weight: lighter;
+    }
+    .storylink {
+      text-align: justify;
+    }
+    strong {
+      font-size: 18px;
+    }
+    button {
+      font-size: 18px;
+      padding: 10px;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      margin: 0 auto;
+      background-color: rgb(68, 214, 175);
+      border: 1px solid black;
+      border-radius: 20px;
+      box-shadow: 10px 10px 2px 0.5px rgb(128, 0, 128, 0.2);
+    }
+    button:hover {
+      background-color: rgb(128, 0, 128);
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 200ms ease-in-out;
+      border: 1px solid white;
+      box-shadow: 10px 10px 2px 0.5px rgb(68, 214, 175, 0.2);
+    }
+    span {
+      font-size: 15px;
+      display: block;
+      margin: 20px;
+    }
