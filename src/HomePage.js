@@ -12,7 +12,7 @@ function Opener(event){
     return(
 <div>
     <h1>{greeting}</h1>
-        <button onClick={Opener}>Hello</button>
+        <button onClick={Opener} className="greetingButton">Hello</button>
     <h2>
       <em><u>Meet Peter Parker and Goblin</u></em>
     </h2>
@@ -66,5 +66,5 @@ function Opener(event){
     <button>Fun Facts</button>
     <br />
     <hr />
-    <span>Made by <a href="https://www.blossomarmstrong.com" target="_blank" rel="noreferrer">Blossom A</a></span></div>)
+    <span className="footer">Made by <a href="https://www.blossomarmstrong.com" target="_blank" rel="noreferrer">Blossom A</a></span></div>)
 }
